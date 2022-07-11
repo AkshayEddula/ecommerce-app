@@ -1,0 +1,96 @@
+
+.summary {
+    font-family: 'Poppins',sans-serif;
+    display: grid;
+    width: 100%;
+}
+
+.summary .bg-1 h3 {
+    color: hsl(26, 100%, 55%);
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.summary .bg-1 h1 {
+    width: 100%;
+    font-size: 40px;
+    color: hsl(220, 13%, 13%);
+}
+
+.summary .bg-1 p {
+    font-family: 'Poppins',sans-serif;
+    width: 80%;
+    font-weight: 500;
+    line-height: 28px;
+    color: hsl(219, 9%, 45%);
+}
+
+.summary .bg-2 .bg-2-1 {
+    display: flex;
+    align-items: center;
+}
+
+.summary .bg-2 .bg-2-1 h1,p {
+    margin: 0;
+}
+
+.summary .bg-2 .bg-2-1 p{
+    color: hsl(26, 100%, 55%);
+    padding-left: 30px;
+    font-weight: 700;
+}
+
+.summary .bg-2 .bg-2-2 p {
+    margin: 0;
+    padding-top: 10px;
+    text-decoration: line-through;
+    color:hsl(220, 14%, 75%);
+}
+
+.summary .bg-3 {
+    height: 80%;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.summary .bg-3 .bg-3-1 {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary .bg-3 .bg-3-1 .operators {
+    color:  hsl(26, 100%, 55%);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.summary .bg-3 .bg-3-1 p{
+    font-weight: 700;
+    color: hsl(220, 13%, 13%);
+}
+
+
+.summary .bg-3 .bg-3-2 {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    justify-content: center;
+    background: hsl(26, 100%, 55%);
+    cursor: pointer;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.summary .bg-3 .bg-3-2  h3{
+    color: hsl(25, 100%, 94%);
+    margin: 0;
+}
+
+.summary .bg-3 .bg-3-2 img {
+    color: hsl(25, 100%, 94%);
+    padding-right: 10px;
+}

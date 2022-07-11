@@ -1,0 +1,109 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.nav-links img {
+    cursor: pointer;
+}
+
+.nav-links ul a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: hsl(219, 9%, 45%);
+    font-size: 16px;
+}
+
+
+
+.profile {
+    display: flex;
+    width: 100px;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.profile img {
+    cursor: pointer;
+}
+
+.profile .avatar{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border:2px solid white;
+}
+
+.profile .avatar:hover {
+    border: 2px solid hsl(26, 100%, 55%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.pop-cart {
+    position: absolute;
+    top: 17%;
+    left: 65%;
+    width: 300px;
+    background: hsl(25, 100%, 94%);
+    box-shadow: 5px 5px 8px rgb(113, 110, 110);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.pop-cart .pop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.pop-cart .pop img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+
+.pop-cart .pop .del {
+    width: 20px;
+    height: 20px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+.pop-cart .pop p{
+    color: hsl(219, 9%, 45%);
+    line-height: 25px;
+}
+
+.pop-cart .pop p .x {
+    font-size: 10px;
+}
+
+.pop-cart .pop p .total {
+    color: black;
+    font-size: 700;
+}
+
+
+.pop-cart .checkout button{
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

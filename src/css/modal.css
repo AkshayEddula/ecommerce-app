@@ -1,0 +1,80 @@
+
+.main-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(55%,30%);
+    margin: auto;
+}
+.Modal-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Modal-con .Modal-sm-con .th {
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.Modal-con .Modal-sm-con {
+    display: flex;
+    align-items: center;
+}
+
+.Modal-con .Modal-sm-con .bg {
+    position: relative;
+    left: 7%;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+.Modal-con .Modal-sm-con .bg-e {
+    left: -7%;
+}
+
+.leftnext{
+    transform: rotate(180deg);
+}
+
+.modal-thumbnails {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+}
+
+.modal-thumbnails img {
+    border-radius: 10px;
+    width: 70px;
+    cursor: pointer;
+    height: 70px;
+}
+
+.closeIcon {
+    width: 30px;
+    height: 30px;
+    padding-left: 20rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
